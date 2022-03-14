@@ -13,13 +13,13 @@ contract SendingEther
 
     function TransferEther(address payable to, uint etherToSend) external
     {
-        //Throws exception if transfer() fails abd refunds all the gas
+        //Throws exception if transfer() fails and refunds all the gas
         to.transfer(etherToSend);
     }
 
     function SendEther(address payable to, uint etherToSend) external
     {
-        //Using require() to reiase an exception and refund gas if send() fails
+        //Using require() to raise an exception and refund gas if send() fails
         require(to.send(etherToSend), "SendEther failed");
     }
 }
