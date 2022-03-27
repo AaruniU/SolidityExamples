@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// Verify() can check if the message and signature were infact created by the signer
 // My implementation of https://www.youtube.com/watch?v=vYwYe-Gv_XI
 
 pragma solidity 0.8.7;
