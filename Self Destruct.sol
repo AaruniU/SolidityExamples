@@ -36,5 +36,4 @@ contract Killer
     {
         return address(this).balance;
     }
-
 }
