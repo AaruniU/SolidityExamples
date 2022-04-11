@@ -1,2 +1,2 @@
 # SolidityExamples
-Some contracts I built while learning Solidity
+Some contracts I wrote while learning Solidity
